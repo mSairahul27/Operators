@@ -1,0 +1,7 @@
+a = 32
+b = 23
+if a == b:
+    print("Equal")
+else:
+    print("Not Equal")
+    
