@@ -1,0 +1,16 @@
+a = 23
+b = 334
+c = 22
+
+if a < b and a < c:
+    print ("Smaller Number:",a)
+if a > b and a > c:
+    print ("Larger Number:",a)
+if a > b and b < c:
+    print ("Smaller Number:",b)
+if b > a and b > c:
+    print ("Larger Number:",b)
+if c < b and a > c:
+    print ("Smaller Number:",c)
+if a < c and b < c:
+    print ("Larger Number:",c)
